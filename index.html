@@ -1,9 +1,40 @@
+<!DOCTYPE html>
 <html>
- 
+
+<head>
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
 <body>
-  <h1>BEN</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
-</html>
+	<div class="container">
+		<span class="left">Joueur: 0</span> <span class="right">Ordinateur: 0</span>
+		<h3>Cliquez sur une des 3 images</h3>
+		<br>
+		<div id="work1" class="row">
+			<div class="col-sm-3">
+				<p>Pierre</p>
+				<img src="cailloux.jpg" class="img-responsive" style="width:100%" id="rock" alt="Image">
+			</div>
+			<div class="col-sm-3">
+				<p>Feuille</p>
+				<img src="papier.jpg" class="img-responsive" style="width:100%" id="paper" alt="Image" >
+			</div>
+			<div class="col-sm-3">
+				<p>Ciseaux</p>
+				<img src="ciseaux.jpg" class="img-responsive" style="width:100%" id="scissors" alt="Image">
+			</div>
+			<div class="userChoice"><h5>Choix du Joueur:</h5></div> 
+		</div>
+	</div>
+	<div class="container result">
+		<div class="computerChoice"><h5>Choix de l'Ordinateur:</h5>
+			<p class="result"></p>
+		</div></div>
+		<span class="reset"><button type="button" class="btn">Reset</button></span>
+		<script src="script.js"></script>
+	</body>
+	</html>

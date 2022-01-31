@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #666699;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  background: linear-gradient(to right, blue, white);
+  width: 100%;
+  margin: 0;
+  margin-top: 100px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+  color: #575e72;
+  background: #2F4F4F;
+  padding: 50px;
+  padding-top: 20px;
+  box-shadow: 2px 4px 3px black;
+  border-radius: 15px;
+}
+
+.result{
+position: relative;
+  width: 500px;
+  height: 150px;
+  margin: 20px auto;
+  padding: 13px;
+  text-align: center;
+  border-radius: 15px;
+  display:none;
+}
+
+p {
+  margin: 5px;
+  font-size: 16px;
+  color: #92959e;
+  line-height: 16px;
+  text-align: center;
+}
+
+span {
+  line-height: 40px;
+  display: inline-block;
+}
+.right{
+  padding-left: 200px;
+}
+span .left {
+  float: left;
+  padding-left:200px;
+}
+
+span .right {
+  float: right;
+}
+
+.col-sm-3{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+h3{
+  color:gray;
+}
+div.userChoice{
+  display: inline-block;
+  margin-block-start: 50px;
+}
+div.computerChoice{
+  display: inline-block;
+  margin-block-start: 50px;
+  margin-left: 20px;
+}
+#won{
+   color: green;
+}
+#lost{
+  color: red;
+}
+#tied{
+color: grey;
+}
+
+span.reset{
+  margin-left: 50%;
+  margin-top: 70px;
+}
